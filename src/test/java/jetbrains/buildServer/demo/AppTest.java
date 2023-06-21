@@ -7,10 +7,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 public class AppTest
 {
-    private App app;
+    private static App app;
 
     @BeforeAll
-    public void setUp() {
+    public static void setUp() {
         app = new App();
     }
 
