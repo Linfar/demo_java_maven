@@ -4,8 +4,5 @@ jobs:
     steps:
       - type: maven
         pom-location: pom.xml
-        name: ''
         goals: package
-      - type: script
-        script-content: ls
     parallelism: 2
