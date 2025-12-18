@@ -5,6 +5,4 @@ jobs:
       - type: maven
         pom-location: pom.xml
         goals: package
-      - type: script
-        script-content: ls
     parallelism: 2
