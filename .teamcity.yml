@@ -1,0 +1,11 @@
+jobs:
+  Job1:
+    name: Build & Test
+    steps:
+      - type: maven
+        pom-location: pom.xml
+        name: ''
+        goals: package
+      - type: script
+        script-content: ls
+    parallelism: 2
