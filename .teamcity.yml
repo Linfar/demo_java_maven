@@ -3,7 +3,7 @@ jobs:
     name: Build & Test
     steps:
       - type: maven
-        pom-location: pom.xml
+        pom-location: pom.xml 
         goals: package
       - type: script
         script-content: ls
